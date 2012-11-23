@@ -17,7 +17,6 @@ namespace Amex.IcePicker.Configuration
     {
         public static AuthCredentialsSection AuthCredentialSettings = System.Configuration.ConfigurationManager.GetSection("OgilvyOnePlatform/AuthCredentials") as AuthCredentialsSection;
 
-
         [ConfigurationProperty("AuthCredentials")]
         [ConfigurationCollection(typeof(AuthCredentialElementCollection), AddItemName = "AuthCredential")]
         public AuthCredentialElementCollection AuthCredentials
