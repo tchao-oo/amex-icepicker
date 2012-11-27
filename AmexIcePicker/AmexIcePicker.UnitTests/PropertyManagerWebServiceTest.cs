@@ -26,7 +26,7 @@ namespace AmexIcePicker.UnitTests
             soapHeader.ClientId = clientId;
             soapHeader.AuthKey = authKey;
 
-            PropertyManagerWebservice.PropertyManagerWebServiceSoapClient target = new PropertyManagerWebservice.PropertyManagerWebServiceSoapClient();
+            PropertyManagerWebservice.PropertyWebserviceSoapClient target = new PropertyManagerWebservice.PropertyWebserviceSoapClient();
            
             string actual = target.SetProperty(soapHeader, name, value);
             Result actualResult = ResultManager.Deserialize(actual);
@@ -69,7 +69,7 @@ namespace AmexIcePicker.UnitTests
             soapHeader.ClientId = clientId;
             soapHeader.AuthKey = authKey;
 
-            PropertyManagerWebservice.PropertyManagerWebServiceSoapClient target = new PropertyManagerWebservice.PropertyManagerWebServiceSoapClient();
+            PropertyManagerWebservice.PropertyWebserviceSoapClient target = new PropertyManagerWebservice.PropertyWebserviceSoapClient();
             
             string actual = target.GetProperty(soapHeader, name);
             Result actualResult = ResultManager.Deserialize(actual);

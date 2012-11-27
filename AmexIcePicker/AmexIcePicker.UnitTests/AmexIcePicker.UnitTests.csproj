@@ -68,7 +68,6 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Service References\MailWebService\MailWebService.wsdl" />
-    <None Include="Service References\PropertyManagerWebservice\PropertyManagerWebService.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\MailWebService\" />
@@ -96,19 +95,20 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\PropertyManagerWebservice\PropertyManagerWebService.disco" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Service References\PropertyManagerWebservice\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\PropertyManagerWebservice\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Service References\PropertyManagerWebservice\PropertyWebService.wsdl" />
     <None Include="Service References\PropertyManagerWebservice\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\PropertyManagerWebservice\PropertyWebService.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

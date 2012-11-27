@@ -14,11 +14,11 @@ namespace AmexIcePickerWebservices
     /// <summary>
     /// Summary description for PropertyManager
     /// </summary>
-    [WebService(Namespace = "http://platform.ogilvyeurope.com/")]
+    [WebService(Namespace = "http://amex.icepicker.com/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
     // [System.Web.Script.Services.ScriptService]
-    public class PropertyManagerWebService : System.Web.Services.WebService
+    public class PropertyWebservice : System.Web.Services.WebService
     {
         public WebServiceSoapHeader PropertyManagerSoapHeader { get; set; }
 

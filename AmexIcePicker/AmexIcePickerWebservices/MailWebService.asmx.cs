@@ -16,7 +16,7 @@ namespace AmexIcePickerWebservices
     /// <summary>
     /// Summary description for MailWebService
     /// </summary>
-    [WebService(Namespace = "http://platform.ogilvyeurope.com/")]
+    [WebService(Namespace = "http://amex.icepicker.com/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [ToolboxItem(false)]
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
